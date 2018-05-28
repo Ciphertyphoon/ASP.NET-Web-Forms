@@ -11,7 +11,7 @@ namespace WebApplicationExample1
     {
         protected void LinkButton1_Click(object sender, EventArgs e)
         {
-            Label1.Text = "Welcome to the javatpoint";
+            Label1.Text = "Welcome to the Cipher Dimension";
         }
     }
 }

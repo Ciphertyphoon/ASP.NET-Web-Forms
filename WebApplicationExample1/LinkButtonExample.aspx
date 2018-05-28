@@ -11,7 +11,7 @@
         <div>  
             <p>It is a hyperlink style button</p>  
         </div>  
-        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">javatpoint</asp:LinkButton>  
+        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">My Dimension</asp:LinkButton>  
         <p>  
             <asp:Label ID="Label1" runat="server"></asp:Label>  
         </p>  
