@@ -157,12 +157,14 @@
     </Content>
     <Content Include="hyperlink.aspx" />
     <Content Include="LinkButtonExample.aspx" />
+    <Content Include="UploadMultipleFilesExample.aspx" />
     <Content Include="WebControls.aspx" />
     <Content Include="WebControls1.aspx" />
     <Content Include="WebControls2.aspx" />
     <Content Include="WebControls3.aspx" />
     <Content Include="WebControls4.aspx" />
     <Content Include="WebControls5.aspx" />
+    <Content Include="WebControls6.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -255,6 +257,13 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="UploadMultipleFilesExample.aspx.cs">
+      <DependentUpon>UploadMultipleFilesExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadMultipleFilesExample.aspx.designer.cs">
+      <DependentUpon>UploadMultipleFilesExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="user-form.aspx.cs">
       <DependentUpon>user-form.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -310,6 +319,13 @@
     </Compile>
     <Compile Include="WebControls5.aspx.designer.cs">
       <DependentUpon>WebControls5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControls6.aspx.cs">
+      <DependentUpon>WebControls6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls6.aspx.designer.cs">
+      <DependentUpon>WebControls6.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
