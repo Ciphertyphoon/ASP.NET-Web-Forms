@@ -140,7 +140,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CookieCollectionExample.aspx" />
+    <Content Include="CookieExample.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DownloadFileExample.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -218,12 +221,33 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CookieCollectionExample.aspx.cs">
+      <DependentUpon>CookieCollectionExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookieCollectionExample.aspx.designer.cs">
+      <DependentUpon>CookieCollectionExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CookieExample.aspx.cs">
+      <DependentUpon>CookieExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookieExample.aspx.designer.cs">
+      <DependentUpon>CookieExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadFileExample.aspx.cs">
+      <DependentUpon>DownloadFileExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DownloadFileExample.aspx.designer.cs">
+      <DependentUpon>DownloadFileExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
