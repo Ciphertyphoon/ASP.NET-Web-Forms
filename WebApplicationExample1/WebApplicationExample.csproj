@@ -147,6 +147,7 @@
     <Content Include="Default.aspx" />
     <Content Include="DownloadFileExample.aspx" />
     <Content Include="DropDownListExample.aspx" />
+    <Content Include="EventHandling.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -273,6 +274,13 @@
     </Compile>
     <Compile Include="DropDownListExample.aspx.designer.cs">
       <DependentUpon>DropDownListExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventHandling.aspx.cs">
+      <DependentUpon>EventHandling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventHandling.aspx.designer.cs">
+      <DependentUpon>EventHandling.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
