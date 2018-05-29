@@ -162,6 +162,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="HTMLServerControls.aspx" />
     <Content Include="hyperlink.aspx" />
     <Content Include="LinkButtonExample.aspx" />
     <Content Include="SessionExample.aspx" />
@@ -284,6 +285,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HTMLServerControls.aspx.cs">
+      <DependentUpon>HTMLServerControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTMLServerControls.aspx.designer.cs">
+      <DependentUpon>HTMLServerControls.aspx</DependentUpon>
     </Compile>
     <Compile Include="hyperlink.aspx.cs">
       <DependentUpon>hyperlink.aspx</DependentUpon>
