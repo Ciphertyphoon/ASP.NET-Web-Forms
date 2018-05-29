@@ -144,6 +144,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DataGridExample.aspx" />
     <Content Include="DataListExample.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -211,6 +212,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridExample.aspx.cs">
+      <DependentUpon>DataGridExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataGridExample.aspx.designer.cs">
+      <DependentUpon>DataGridExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataListExample.aspx.cs">
       <DependentUpon>DataListExample.aspx</DependentUpon>

@@ -142,6 +142,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="CookieCollectionExample.aspx" />
     <Content Include="CookieExample.aspx" />
+    <Content Include="DataGridExample2.aspx" />
     <Content Include="DataListExample2.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DownloadFileExample.aspx" />
@@ -237,6 +238,13 @@
     </Compile>
     <Compile Include="CookieExample.aspx.designer.cs">
       <DependentUpon>CookieExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridExample2.aspx.cs">
+      <DependentUpon>DataGridExample2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataGridExample2.aspx.designer.cs">
+      <DependentUpon>DataGridExample2.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataListExample2.aspx.cs">
       <DependentUpon>DataListExample2.aspx</DependentUpon>

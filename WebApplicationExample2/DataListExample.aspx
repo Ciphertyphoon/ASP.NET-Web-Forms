@@ -27,7 +27,7 @@
                 <br />
             </ItemTemplate>
         </asp:DataList>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:StudentConnectionString %>"
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:StudentConnectionString2 %>"
             SelectCommand="SELECT * FROM [Student]"></asp:SqlDataSource>
     </form>
 </body>
